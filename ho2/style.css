@@ -1,0 +1,136 @@
+body{
+    border: 6px groove yellowgreen;
+    margin: 0;
+    padding: 0;
+    background-image:url("./bg1.png");
+    background-size: cover;
+    
+
+}
+.box{
+    background-color: black;
+    color: white;
+    font-style: italic;
+    border: 7px solid rgb(233, 43, 43);
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: x-large;
+    display: flex;
+    justify-content:space-between; 
+    align-items:center; 
+    margin: 2%;
+    display: inline-block;
+    
+}
+.box1
+{
+    height: 125px;
+    width: 300px; 
+    
+}
+.box2{
+    height: 60px;
+    width: 350px; 
+    top: -18px;
+    position: relative;
+    left: -203px;
+    margin-right: 91px;
+}
+.box3{
+    height: 133px;
+    width: 270px;
+    padding-right: 16%;
+    padding-left: 3%;
+}
+.p1{
+   text-align: center;
+   font-weight:bolder;
+}
+
+.form{
+    border: 5px dashed red;
+    width: 30%;
+    margin-left: 49%;
+    color: red;
+    background-color: aliceblue;
+    font-size: larger;
+    font-weight: 500px;  
+}
+#prh{
+    font-size: xx-large;
+}
+#fname{
+    text-align: center;
+}
+#lname{
+    text-align: center;
+}
+#age{
+    text-align: center;
+}
+#email{
+    text-align: center;
+}
+.circle{
+    background-color: rgb(19, 195, 165);
+    height: 350px;
+    width: 350px;
+    border: 5px solid gray ;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 21px;
+    position: absolute;
+    top: 500px;
+    left: 200px;
+}
+.circle-inside{
+    padding-top: 58px; 
+}
+.ci{
+    text-decoration: underline;
+    font-weight: bolder;
+    font-style: italic;
+}
+.hr{
+    width: 21rem;
+}
+.menu{
+    border: 5px solid red ;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+    font-size: 30px; 
+    font-style: italic;   
+}
+.thirdcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.mbox{
+    border: 3px solid green;
+    height: 250px;
+    width: 390px;
+    border-radius: 10%;
+    background-color: aqua;
+    margin-bottom: 20px;
+
+}
+ul{
+    text-align: center;
+}
+.para{
+    color:blue;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+}
+#bo{
+    height: 370px;
+}

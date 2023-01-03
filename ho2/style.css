@@ -39,8 +39,9 @@ body{
 .box3{
     height: 133px;
     width: 270px;
-    padding-right: 16%;
-    padding-left: 3%;
+    padding-right: 3%;
+    padding-left: 2%;
+    margin-left: 224px;
 }
 .p1{
    text-align: center;

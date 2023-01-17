@@ -1,0 +1,280 @@
+body{
+    background-color: yellow;
+    
+}
+h1{
+    text-align: center;
+}
+/* .num{
+    margin-left: -50px;  
+    
+} */
+.p{
+    margin-left: -550px;
+    font-size: 20px;
+    margin-top: 105px;
+    margin-bottom: -83px;
+}
+
+.box-1{
+    display: flex;
+    gap: 60px;
+    margin-left: 550px;
+    margin-bottom: 10%; 
+    animation-name: sample;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-direction:alternate;
+
+}
+
+@keyframes sample{
+    0%{
+        transform:skewX(30deg);
+    }
+    100%{
+        transform: skewX(-30deg);
+    }
+}
+.box1{
+    border: 2px solid;
+    background-color: cadetblue;
+    height: 90px;
+    width: 90px;
+}
+
+p{
+    text-align: center;
+    font-size: 33px;
+    line-height: 2%;
+}
+.box-2{
+    display: flex;
+    gap: 60px;
+    margin-left: 550px;
+    /* margin-bottom: 10%; */
+}
+.box2{
+    border: 2px solid;
+    background-color: rgb(234, 115, 198);
+    height: 90px;
+    width: 90px;
+    margin-bottom: 10%; 
+    animation-name: sample2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-direction:alternate;
+}
+@keyframes sample2{
+    0% {
+        transform: skewY(30deg)
+    }
+    50% {
+        transform: skewY(-30deg)
+    }
+    100% {
+        transform: skewY(30deg)
+    }
+}
+.box-3{
+    display: flex;
+    gap: 60px;
+    margin-left: 550px;
+    margin-bottom: 10%;
+}
+.box3{
+    border: 2px solid;
+    background-color: rgb(75, 118, 119);
+    height: 90px;
+    width: 90px;
+    animation-name: sample3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-direction:alternate;
+}
+@keyframes sample3{
+    0%{
+        transform:rotate(90deg);
+    }
+    100%{
+        
+         transform:rotate(360deg);
+    }
+}
+
+.box-4{
+    display: flex;
+    gap: 60px;
+    margin-left: 550px;
+    margin-bottom: 3%;
+}
+.box4{
+    border: 2px solid;
+    background-color: cadetblue;
+    height: 90px;
+    width: 90px;
+    animation-name: sample4;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-direction:alternate;
+}
+@keyframes sample4{
+    0%{
+        transform:scale(1,1);
+    }
+    100%{
+        
+         transform:scale(1,1.5);
+    }
+
+}
+
+.box4-1{
+    border: 2px solid;
+    background-color: rgb(155, 6, 6);
+    height: 90px;
+    width: 90px;
+    animation-name: sample5;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-direction:alternate;
+}
+@keyframes sample5{
+    0%{
+        transform:scale(1,1);
+    }
+    100%{
+        
+         transform:scale(1.5,1);
+    }
+
+}
+
+.box4-2{
+    border: 2px solid;
+    background-color: rgb(85, 242, 108);
+    height: 90px;
+    width: 90px;
+    animation-name: sample6;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-direction:alternate;
+}
+@keyframes sample6{
+    0%{
+        transform:rotate(90deg);
+    }
+    100%{
+        
+         transform:rotate(360deg);
+    }
+
+}
+
+
+.transition{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.card1{
+    height: 90px;
+    width: 90px;
+    border: 2px solid;
+    margin-bottom: 4%;
+    background-color: greenyellow; 
+    transition-duration: 2s;
+    transition-timing-function: ease;
+}
+.card1:hover{
+    width:300px;  
+}
+.card2{
+    height: 90px;
+    width: 90px;
+    border: 2px solid;
+    margin-bottom: 4%;
+    background-color: greenyellow; 
+    transition-duration: 2s;
+    transition-timing-function: ease;
+}
+.card2:hover{
+    width:300px; 
+    height: 300px; 
+}
+
+.card3{
+    height: 90px;
+    width: 90px;
+    border: 2px solid;
+    margin-bottom: 4%;
+    background-color: greenyellow; 
+    transition-duration: 2s;
+    transition-timing-function: linear;
+}
+.card3:hover{
+    width:300px; 
+
+}
+
+.card4{
+    height: 90px;
+    width: 90px;
+    border: 2px solid;
+    margin-bottom: 4%;
+    background-color: greenyellow; 
+    transition-duration: 2s;
+    transition-timing-function: ease;
+}
+.card4:hover{
+    width:300px;  
+}
+
+.card5{
+    height: 90px;
+    width: 90px;
+    border: 2px solid;
+    margin-bottom: 4%;
+    background-color: greenyellow; 
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+}
+.card5:hover{
+    width:300px;  
+}
+
+.card6{
+    height: 90px;
+    width: 90px;
+    border: 2px solid;
+    margin-bottom: 4%;
+    background-color: greenyellow; 
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+}
+.card6:hover{
+    width:300px;  
+}
+
+.card7{
+    height: 90px;
+    width: 90px;
+    border: 2px solid;
+    margin-bottom: 4%;
+    background-color: greenyellow; 
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+.card7:hover{
+    width:300px;  
+}
+
+
+

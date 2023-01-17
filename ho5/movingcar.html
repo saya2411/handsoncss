@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       body{
+        margin: 0;
+        padding: 0;
+        border:15px solid;
+        border-color: white green white orange;
+       }
+       #happy{
+        background-color: orange;
+       }
+       #independence{
+        background-color: white;
+        }
+        #day{
+            background-color: green;
+        } 
+        .sky{
+            position: relative;
+            text-align: center;
+        }
+        .h1{
+            position: absolute;
+            top: 50%;
+            left:50%;
+            transform: translate(-50%,-292%);
+            font-size: larger;
+        }  
+        #city{
+            position: absolute;
+            width:190%;
+            height: 250px;
+            top: 266px;
+            background-repeat: repeat-x;
+            animation-name: city;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease;
+            /* animation-direction:alternate; */
+        }
+
+        @keyframes city{
+            100%{
+               transform: translateX(-1300px);
+            }
+        }
+
+        .sun{
+            position: absolute;
+            right: 20px;
+            top: 100px;
+            animation-name: sun;
+            animation-duration: 3s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+        @keyframes sun{
+            100%{
+        transform: translateX(-230px);
+        }   
+        }
+        .road{
+            margin-top: -1%;
+            height: 200px;
+            width: 242%;
+            z-index: 2;
+            animation-name: road;
+            animation-duration: 7s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+        @keyframes road{
+            100%{
+                transform: translate(-2100px);
+            }
+        }
+        .car{
+            position: absolute;
+            top: 340px;
+            left: 500px;
+            transform: translate(70%,-200%);  
+            animation-name: car;
+            animation-duration: 3s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;  
+        }
+        @keyframes car{
+            0%{
+                transform: translateY(3px);
+            }
+            50%{
+                transform: translateY(-3px);
+            }
+            100%{
+                transform: translateY(3px);
+            }
+        }
+        .tiranga{
+            position: absolute;
+            left: 55%;
+            top: 315px;
+        }
+        .wheel1{
+            position: absolute;
+            top: 435px;
+            left: 535px;
+            animation-name: front;
+            animation-duration: 3s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+        @keyframes front{
+            100%{
+                transform: rotate(360deg);
+            }   
+        }
+        .wheel2{
+            position: absolute;
+            top: 435px;
+            left: 828px;
+            animation-name: back;
+            animation-duration: 3s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+        @keyframes back{
+            100%{
+                transform: rotate(360deg);
+            }
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="sky">
+        <img src="./sky.jpg" alt="sky" height="500px" width="100%">
+        <div class="h1"><h1><span id="happy">HAPPY</span> <span id="independence">INDEPENDENCE</span> <span id="day">DAY</span></h1></div>
+    </div> 
+    <div class="city">
+        <img src="./city.png" alt="city" id="city" >
+    </div> 
+    <div class="sun">
+        <img src="./sun.png" alt="sun" height="91px">
+    </div>
+    <div class="road">
+        <img src="./road.jpg" alt="road" width="100%" height="250px">
+    </div>
+    <div class="car">
+        <img src="./car.png" alt="car" height="200px">
+    </div>
+    <div class="tiranga">
+        <img src="./Tiranga1.svg" alt="tiranga" height="100px">
+    </div>
+    <div class="wheels">
+        <div class="wheel1">
+            <img src="./wheel.png" alt="wheel" height="100px">
+        </div>
+        <div class="wheel2">
+            <img src="./wheel.png" alt="wheel" height="100px">
+        </div>
+    </div>
+</body>
+</html> 

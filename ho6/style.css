@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./shara\ desert.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.container{
+    display: flex;
+}
+.nav{
+    height: 50px;
+    width: 400px;
+    margin-left: 700px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.sahara{
+    width: 550px;
+    height: 500px;
+    margin-left: 100px;
+    margin-top: 140px;
+}
+h1{
+    font-size: 90px;
+    color: white;
+}
+.sahara p{
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    line-height: 30px;
+}
+button{
+    height: 40px;
+    width: 170px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 30px;
+    border: 1px solid white;
+    font-family: serif;
+    font-weight: 600;
+}
+.container2{
+    display: flex;
+    gap: 70px;
+}
+.grid{
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 220px 220px;
+    grid-template-rows: 230px 230px;
+    column-gap: 109px;
+    row-gap: 89px;
+}
+.box{
+    width: 296px;
+    height: 298px;
+    border-radius: 20px;
+    color: white;
+    padding: 20px;
+    cursor: pointer;
+    background-size: cover;
+}
+.box:hover{
+    transform: translateY(-5px);
+}
+.box1{
+    background-image: url(./pic-1.png);
+}
+.box2{
+    background-image: url(./pic-2.png);
+}
+.box3{
+    background-image: url(./pic-3.png);
+}
+.box4{
+    background-image: url(./pic-4.png);
+}
+h2{
+    font-size: medium;
+}
+.box p{
+    font-size: x-small;
+    line-height: 20px;
+}
+@media only screen and(min-width: 700px),(max-width: 856px){
+    body{
+        background-size: 856px 620px;
+        background-repeat: repeat;
+    }
+    .logo1{
+        height: 50px;
+        width: 50px;
+    }
+    .nav{
+        margin-left: 270px;
+    }
+    .sahara{
+        margin-top: 2px;
+        width: 700px;
+        height: 240px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .container2{
+        display: block;
+    }
+    .grid{
+        height: 1000px;
+        margin: auto;
+        grid-template-columns: 500px;
+    }
+    .box{
+        width: 500px;
+        background-size: 500px 350px;
+    }
+    .box:hover{
+        transform: translateY(-5px);
+    }
+    .box1{
+        background-repeat: no-repeat;
+    }
+    .box2{
+        background-repeat: no-repeat;
+    }
+    .box3{
+        background-repeat: no-repeat;
+    }
+    .box4{
+        background-repeat: no-repeat;  
+    }
+    button{
+        width: 170px;
+        height: 40px;
+        font-family: serif;
+        border-radius: 30px;
+        font-weight: 600; 
+    }
+}
+@media only screen and(min-width:250px),(max-width: 450px){
+    body{
+        background-size: 450px 562;
+    }
+    .logo{
+        margin-left: 30px;
+    }
+    .nav{
+        margin-left: 150px;
+        display: block;
+        position: relative;
+    }
+    a{
+        display: block;
+        line-height:25px;
+    }
+    .menu{
+        position: absolute;
+        bottom: 0px;
+        left: 90px;
+    }
+    .logo1{
+        height: 70px;
+        width: 70px;
+    }
+    .container2{
+        display: block;
+    }
+    .sahara{
+        margin-left: 30px;
+        width: 350px;
+        height: 300px;
+    }
+    .grid{
+        width: 280px;
+        height: 1150px;
+        grid-template-columns: 890px;
+        grid-template-rows: 290px;
+    }
+    .box{
+        width: 280px;
+        height: 290px;
+        transition: 0.5s;
+    }
+    .box:hover{
+        transform: translateY(-5px);
+    }
+    button{
+        position: relative;
+        width: 200px;
+        height: 48px;
+        font-size: medium;
+        font-weight: 600;
+        font-family: serif;
+        border-radius: 25px;
+        top: -26px;
+    }
+}

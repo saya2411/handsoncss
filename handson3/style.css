@@ -1,0 +1,214 @@
+body{
+    background-color:gray;
+}
+
+.first-box{
+    border: 7px solid red;
+    height: 163px;
+    width: 250px;
+    border-radius: 9px;
+    box-shadow: 10px 10px rgb(132, 4, 132);
+    margin: auto;
+    background-color: #fff;
+    padding: 0 99px 0 99px;  
+}
+
+.para1{
+    text-shadow: 2px 2px blueviolet;
+    font-style: italic;
+    font-size: 30px;
+    color:rgb(226, 43, 61);
+    font-weight:bolder;
+    text-align:center;
+}
+
+.green-box{
+    border: 5px solid rgb(26, 168, 54); 
+    display:flex;
+    /* position: absolute; */
+    margin: auto;
+    justify-content:space-between;
+    align-items:center;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+
+.box{
+    border: 7px solid red;
+    box-shadow: 10px 10px rgb(132, 4, 132);
+    background-color: #fff;
+    box-sizing: border-box;      
+}
+
+#box1{
+    height: 281px;
+    width: 264px;
+    border-radius: 9px;
+    padding-bottom: 10%;
+    margin:4px 61% 5% 0;
+}
+
+.image{
+    background-position: center;
+    background-color: black;
+}
+#box2{
+    height: 281px;
+    width: 264px;
+    border-radius: 9px;
+    padding-bottom: 10%;
+    margin: -4.8% 3% 0 0;
+}
+
+#box3{
+    height: 200px;
+    width: 264px;
+    border-radius: 9px;
+    padding-bottom: 17%;
+    margin-bottom: 5%;
+    margin-top: -1.4%;
+}
+
+#box4{
+    height: 209px;
+    width: 264px;
+    border-radius: 9px;
+    padding-bottom: 17.5%;
+    margin: 0 3% 6% 0;
+}
+
+ .box-1{
+    text-shadow: 2px 2px rgb(249, 135, 213);
+    font-size: 24px;
+    color:rgb(14, 14, 14);
+    font-weight:900;
+    text-align:center;
+    position: relative;
+}
+
+.box-2{
+    background-image: url("./logo.png");
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+}
+
+.box-3{
+    text-shadow: 2px 2px rgb(249, 135, 213);
+    font-size: 27px;
+    color:rgb(14, 14, 14);
+    font-weight:900;
+    position: relative;
+}
+
+.box-4{
+    text-shadow: 2px 2px rgb(249, 135, 213);
+    font-size: 24px;
+    color:rgb(14, 14, 14);
+    font-weight:900;
+    text-align:center;
+    position: relative;
+}
+
+#num{
+    text-align: center;
+}
+
+#sub{
+    background-color: red;
+    border-radius: 10px;
+}
+
+.purple-border{
+    border: 7px solid purple;
+    margin-top: 3%;
+    display: inline-block;
+    margin-left: 30%;
+    height: 598px;
+    width: 647px;
+    background-color: green;
+}
+
+.fruveg{
+    display: flex;
+    justify-content: space-between;
+}
+
+#para1{
+    font-size: 34px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.style{
+    font-style:italic;
+    font-size: 19px;
+    text-align: center;
+    border: 1px solid rgb(14, 14, 13);
+    background-color:rgb(242, 242, 90);
+}
+
+.bolditalic{
+    font-weight: bolder;
+    
+}
+
+.fruits{
+    height: 239px;
+    width: 311px;    
+}
+.vegetables{
+    height: 239px;
+    width: 286px;  
+}
+
+.other{
+    height: 217px;
+    width: 652px;
+    margin-top: 14px;   
+}
+
+.fsfv{
+    font-size: 15px;
+    /* font-weight: bold; */
+}
+
+.sticky{
+    position: sticky;
+    bottom: 139px;
+    color: red;
+    border: 7px solid red;
+    height: 77px;
+    width: 253px;
+    border-radius: 20px;
+    box-shadow: 10px 10px rgb(132 4 132);
+    margin: auto;
+    background-color: rgb(152, 237, 33);
+    padding: 0 99px 0 99px;
+    display: flex;
+    align-items: self-start;
+    justify-content: space-between;
+}
+
+
+.bolder{
+    width: 234px;
+    margin-left: -30px;
+}
+.bold{
+    width: 121px;
+    margin-right: -53px;
+}
+
+#bolder{
+    font-weight: bolder;
+    font-size:20px;
+    font-style: italic;
+}
+
+#bold{
+    font-weight: bold;
+    font-style: italic;
+    font-size:15px;
+}
